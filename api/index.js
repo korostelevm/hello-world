@@ -1,6 +1,6 @@
 module.exports.all = (req,res) => {
   res.json({
-    Hello: ['Hola', 'Hggggjjmn ello', 'Привет', '你好'],
+    Hello: ['Hola'],
     World: '🌎',
     at: new Date().toISOString()
   }
