@@ -1,7 +1,7 @@
 module.exports.all = (req,res) => {
-  res.json({
+  res.html({
     Hello: ['Hola'],
     World: '🌎',
-    at: new Date().toISOString()
+
   }
 )}
