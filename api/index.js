@@ -1,5 +1,5 @@
 module.exports.all = (req,res) => {
-  res.send({
+  res.json({
     Hello: ['Hola'],
     World: '🌎',
 
