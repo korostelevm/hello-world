@@ -3,7 +3,7 @@ var app = express()
 
 
 app.get('/', async (req,res) => { 
-  console.log('fdsafsadf')
+  console.log('aaa')
   res
     .json({
         "aaa":"bbb", ...process.env})
