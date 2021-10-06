@@ -6,7 +6,7 @@ app.get('/', async (req,res) => {
   console.log('aaa')
   res
     .json({
-        "aaa":"bbb", ...process.env})
+        "aaa":"bbb"})
     .end()
 })
 
