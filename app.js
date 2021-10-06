@@ -4,7 +4,7 @@ var app = express()
 
 app.get('/', async (req,res) => { 
   console.log('aaa')
-    console.error('bbb')
+    console.error('bbbbb')
   res
     .json({
         "aaa":"bbb"})
