@@ -7,7 +7,7 @@ app.get('/', async (req,res) => {
     console.error('bbbbb')
   res
     .json({
-        "aaa":"ddddd"})
+        "aaa":"aaaa"})
     .end()
 })
 
